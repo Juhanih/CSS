@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Lexend Tera', sans-serif;
+  color: #40514E;
+}
+
+p {
+  line-height: 2;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Anton', sans-serif;
+  color: #ffa41b;
+  font-size: 4.0rem;
+  /* font-size dynamic using REM and not affected by it's parent font-size */
+}
+
+h2 {
+  font-family: 'Anton', sans-serif;
+  font-size: 2rem;
+  color: #40514E;
+  padding-top: 20px;
+
+
+}
+
+h3 {
+  font-family: 'Anton', sans-serif;
+  color: #40514E;
+}
+
+h4 {
+  font-family: 'Anton', sans-serif;
+  color: #40514E;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-width: 10px;
+  width: 5%;
+  border-color: #1b6ca8;
+  margin:150px auto;
+}
+
+a {
+    color: #f4f6ff;
+    font-family: 'Anton', sans-serif;
+    margin: 10px 50px;
+    text-decoration: none;
+}
+
+a:hover {
+  color: #ffa41b;
+
+}
+
+/****CLASS TAG******/
+.top-container {
+  background-color: #000839;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  padding-top: 40px;
+  line-height: 2;
+}
+
+.bottom-container {
+  background-color: #000839;
+  color: white;
+  font-style: normal;
+  font-family: verdana, serif;
+  font-size: 1rem;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.profile-pic {
+  height: 250px;
+}
+
+.HTML-skill-img {
+  height: 250px;
+  /*could be also % of the parent*/
+  float: left;
+  padding-right: 30px;
+}
+
+.CSS-skill-img {
+  height: 250px;
+  /*could be also % of the parent*/
+  float: right;
+  padding-left: 30px;
+}
+
+.pro {
+  color: #f4f6ff;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 40px;
+  right: 400px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 400px;
+  bottom: 400px;
+}
+
+.mountain {
+  position: relative;
+  height: 435px;
+  bottom: 0;
+}
+
+.profile {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: inherit;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.contact-me {
+  margin:100px auto;
+  width:75%;
+}
+
+
+
+.btn {
+	box-shadow: 0 0 0 2 #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:10px;
+	border:1px solid #29469e;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #283966;
+  margin-top:40px;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.footer-name {
+padding-top:30px;
+font-size:0.75rem;
+color:#f4f6ff;
+}
